@@ -6,10 +6,10 @@ function appendToDisplay(value) {
 function calculate() {
     const display = document.getElementById('display');
     const expression = display.value;
-
-    // This will replace the result of any mathematical operation with "JUA BAU TITIT"
+    
+    // This will replace the result of any mathematical operation with "I love you"
     if (expression.match(/[0-9]+[+\-*/][0-9]+/)) {
-        display.value = 'JUA BAU TITIT';
+        display.value = 'Devi, Serli, Mei Bau Terasi ';
     } else {
         try {
             display.value = eval(expression);
